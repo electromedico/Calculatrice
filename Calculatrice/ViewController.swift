@@ -9,13 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    //variable qui fait reference au label qui afiche le resultat
     @IBOutlet weak var resultLabel: UILabel!
+    //Variable qui fait reference au label qui affiche la formula
     @IBOutlet weak var formulaLabel: UILabel!
     
-    
+    //variable contenant le resultat
     var resultValueString : String = "0"
+    //variable contenant le valeur en cours
     var currentValueString : String = "0"
+    //variable contenant le symbol
     var operatorSymbol : String = ""
     
     override func viewDidLoad() {
